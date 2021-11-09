@@ -1,0 +1,359 @@
+2021-11-09 11:26:12.422  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:26:12.429  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:26:12.533  INFO 6920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-11-09 11:26:12.642  INFO 6920 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-11-09 11:26:17.129  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:26:18.276  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 859 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:26:32.184  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:26:32.298  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:26:32.299  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:26:32.775  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:26:32.777  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 20132 ms
+2021-11-09 11:26:35.606  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:26:36.563  INFO 6920 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-09 11:26:39.009  INFO 6920 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-09 11:26:40.434  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-09 11:26:41.956  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-09 11:26:42.262  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:26:45.370  INFO 6920 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: tn.esprit.spring.entity.Mp (class must be instantiated by Interceptor)
+2021-11-09 11:26:49.075  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:26:49.185  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:26:51.257  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:26:53.827  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:26:54.119  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:26:54.152  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 42.498 seconds (JVM running for 45.525)
+2021-11-09 11:33:21.498  INFO 6920 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:33:21.520  INFO 6920 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-09 11:33:21.628  INFO 6920 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-09 11:33:22.199  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:33:22.199  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:33:22.492  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:33:22.503  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:33:22.660  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:33:22.661  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:33:22.662  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:33:22.684  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:33:22.684  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 480 ms
+2021-11-09 11:33:22.727  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:33:22.732  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-11-09 11:33:22.754  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-11-09 11:33:22.754  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:33:22.769  INFO 6920 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: tn.esprit.spring.entity.Mp (class must be instantiated by Interceptor)
+2021-11-09 11:33:22.806  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:33:22.807  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:33:22.923  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:33:23.037  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:33:23.049  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:33:23.054  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.909 seconds (JVM running for 434.427)
+2021-11-09 11:33:23.404  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:33:25.305  INFO 6920 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:33:25.309  INFO 6920 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-11-09 11:33:25.324  INFO 6920 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-11-09 11:33:25.532  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:33:25.533  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:33:25.728  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:33:25.736  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:33:25.824  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:33:25.825  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:33:25.825  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:33:25.868  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:33:25.868  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 331 ms
+2021-11-09 11:33:25.906  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:33:25.912  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-11-09 11:33:25.917  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-11-09 11:33:25.918  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:33:25.928  INFO 6920 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: tn.esprit.spring.entity.Mp (class must be instantiated by Interceptor)
+2021-11-09 11:33:25.954  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:33:25.954  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:33:26.050  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:33:26.179  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:33:26.197  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:33:26.202  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.701 seconds (JVM running for 437.575)
+2021-11-09 11:33:26.268  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:34:07.505  INFO 6920 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:34:07.509  INFO 6920 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-11-09 11:34:07.520  INFO 6920 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-11-09 11:34:07.768  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:34:07.768  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:34:08.012  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:34:08.024  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:34:08.162  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:34:08.163  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:34:08.163  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:34:08.178  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:34:08.178  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 405 ms
+2021-11-09 11:34:08.229  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:34:08.235  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-11-09 11:34:08.242  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-11-09 11:34:08.242  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:34:08.256  INFO 6920 --- [restartedMain] org.hibernate.tuple.PojoInstantiator     : HHH000182: No default (no-argument) constructor for class: tn.esprit.spring.entity.Mp (class must be instantiated by Interceptor)
+2021-11-09 11:34:08.285  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:34:08.286  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:34:08.381  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:34:08.491  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:34:08.505  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:34:08.512  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.792 seconds (JVM running for 479.885)
+2021-11-09 11:34:08.615  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:35:08.597  INFO 6920 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:35:08.599  INFO 6920 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2021-11-09 11:35:08.607  INFO 6920 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2021-11-09 11:35:08.794  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:35:08.794  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:35:08.983  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:35:08.992  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:35:09.126  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:35:09.128  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:35:09.128  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:35:09.143  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:35:09.144  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 347 ms
+2021-11-09 11:35:09.178  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:35:09.183  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2021-11-09 11:35:09.189  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2021-11-09 11:35:09.190  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:35:09.220  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:35:09.220  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:35:09.293  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:35:09.402  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:35:09.415  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:35:09.422  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.661 seconds (JVM running for 540.795)
+2021-11-09 11:35:09.526  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:35:37.237  INFO 6920 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:35:37.239  INFO 6920 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2021-11-09 11:35:37.244  INFO 6920 --- [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2021-11-09 11:35:37.384  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:35:37.384  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:35:37.576  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:35:37.583  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:35:37.682  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:35:37.683  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:35:37.684  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:35:37.698  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:35:37.698  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 309 ms
+2021-11-09 11:35:37.732  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:35:37.740  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2021-11-09 11:35:37.745  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2021-11-09 11:35:37.745  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:35:37.778  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:35:37.779  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:35:37.917  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:35:38.179  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:35:38.203  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:35:38.211  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.859 seconds (JVM running for 569.584)
+2021-11-09 11:35:38.303  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:36:55.750  INFO 6920 --- [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:36:55.762  INFO 6920 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2021-11-09 11:36:55.772  INFO 6920 --- [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2021-11-09 11:36:55.985  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:36:55.985  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:36:56.334  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:36:56.342  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:36:56.492  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:36:56.493  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:36:56.493  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:36:56.508  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:36:56.508  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 521 ms
+2021-11-09 11:36:56.542  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:36:56.547  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2021-11-09 11:36:56.578  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2021-11-09 11:36:56.579  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:36:56.616  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:36:56.616  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:36:56.716  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:36:56.810  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:36:56.821  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:36:56.825  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.875 seconds (JVM running for 648.199)
+2021-11-09 11:36:56.968  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:37:04.644  INFO 6920 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:04.647  INFO 6920 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2021-11-09 11:37:04.657  INFO 6920 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2021-11-09 11:37:04.901  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:37:04.901  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:37:05.104  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:37:05.111  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:37:05.220  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:37:05.221  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:37:05.222  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:37:05.235  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:37:05.235  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 331 ms
+2021-11-09 11:37:05.269  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:37:05.273  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2021-11-09 11:37:05.277  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2021-11-09 11:37:05.278  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:37:05.308  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:37:05.309  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:05.374  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:37:05.474  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:37:05.485  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:37:05.489  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.643 seconds (JVM running for 656.862)
+2021-11-09 11:37:05.569  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:37:07.651  INFO 6920 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:07.654  INFO 6920 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2021-11-09 11:37:07.665  INFO 6920 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2021-11-09 11:37:07.986  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:37:07.989  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:37:08.226  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:37:08.239  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:37:08.373  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:37:08.374  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:37:08.375  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:37:08.391  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:37:08.391  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 398 ms
+2021-11-09 11:37:08.429  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:37:08.435  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2021-11-09 11:37:08.439  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2021-11-09 11:37:08.440  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:37:08.469  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:37:08.469  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:08.539  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:37:08.660  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:37:08.725  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:37:08.742  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.808 seconds (JVM running for 660.115)
+2021-11-09 11:37:08.846  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:37:21.988  INFO 6920 --- [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:21.990  INFO 6920 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2021-11-09 11:37:21.996  INFO 6920 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2021-11-09 11:37:22.104  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:37:22.104  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:37:22.272  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:37:22.279  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:37:22.359  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:37:22.359  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:37:22.359  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:37:24.655  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:37:24.656  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2550 ms
+2021-11-09 11:37:24.774  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:37:24.788  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2021-11-09 11:37:24.802  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2021-11-09 11:37:24.804  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:37:24.883  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:37:24.884  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:25.018  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:37:25.138  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:37:25.150  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:37:25.155  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 3.081 seconds (JVM running for 676.528)
+2021-11-09 11:37:25.235  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:37:54.270  INFO 6920 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:54.271  INFO 6920 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2021-11-09 11:37:54.275  INFO 6920 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2021-11-09 11:37:54.447  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:37:54.448  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:37:54.620  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:37:54.627  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:37:54.741  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:37:54.742  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:37:54.743  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:37:54.754  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:37:54.754  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 304 ms
+2021-11-09 11:37:54.784  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:37:54.788  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2021-11-09 11:37:54.805  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2021-11-09 11:37:54.805  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:37:54.831  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:37:54.831  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:54.888  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:37:54.976  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:37:54.987  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:37:54.990  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.573 seconds (JVM running for 706.363)
+2021-11-09 11:37:55.181  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:37:57.035  INFO 6920 --- [Thread-43] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:57.042  INFO 6920 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2021-11-09 11:37:57.052  INFO 6920 --- [Thread-43] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2021-11-09 11:37:57.243  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:37:57.244  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:37:57.413  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:37:57.425  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:37:57.525  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:37:57.526  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:37:57.526  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:37:57.539  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:37:57.540  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 293 ms
+2021-11-09 11:37:57.576  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:37:57.582  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2021-11-09 11:37:57.586  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2021-11-09 11:37:57.587  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:37:57.616  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:37:57.617  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:37:57.678  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:37:57.777  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:37:57.787  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:37:57.792  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.577 seconds (JVM running for 709.165)
+2021-11-09 11:37:57.957  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:39:32.787  INFO 6920 --- [Thread-47] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:39:32.789  INFO 6920 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2021-11-09 11:39:32.791  INFO 6920 --- [Thread-47] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2021-11-09 11:39:33.001  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:39:33.001  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:39:33.398  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:39:33.407  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:39:33.544  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:39:33.545  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:39:33.546  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:39:33.557  INFO 6920 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:39:33.557  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 552 ms
+2021-11-09 11:39:33.588  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:39:33.593  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2021-11-09 11:39:33.597  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2021-11-09 11:39:33.598  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:39:33.631  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:39:33.632  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:39:33.717  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:39:33.817  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:39:33.828  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/SpringMVC'
+2021-11-09 11:39:33.833  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.892 seconds (JVM running for 805.205)
+2021-11-09 11:39:34.032  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:51:47.846  INFO 6920 --- [Thread-51] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:51:47.848  INFO 6920 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2021-11-09 11:51:47.853  INFO 6920 --- [Thread-51] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2021-11-09 11:51:48.109  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Starting Application using Java 1.8.0_251 on DESKTOP-C1T5R1D with PID 6920 (C:\Work\workspace-sts\matiere.premiere\target\classes started by mahmoud in C:\Work\workspace-sts\matiere.premiere)
+2021-11-09 11:51:48.110  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : No active profile set, falling back to default profiles: default
+2021-11-09 11:51:48.371  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-11-09 11:51:48.379  INFO 6920 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-11-09 11:51:48.541  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+2021-11-09 11:51:48.543  INFO 6920 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-09 11:51:48.543  INFO 6920 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2021-11-09 11:51:48.557  INFO 6920 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/Mp]     : Initializing Spring embedded WebApplicationContext
+2021-11-09 11:51:48.557  INFO 6920 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 442 ms
+2021-11-09 11:51:48.590  INFO 6920 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-09 11:51:48.597  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2021-11-09 11:51:48.628  INFO 6920 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2021-11-09 11:51:48.629  INFO 6920 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-09 11:51:48.722  INFO 6920 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-09 11:51:48.723  INFO 6920 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:51:48.794  WARN 6920 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-09 11:51:48.874  WARN 6920 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-11-09 11:51:48.885  INFO 6920 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path '/Mp'
+2021-11-09 11:51:48.888  INFO 6920 --- [restartedMain] tn.esprit.spring.Application             : Started Application in 0.823 seconds (JVM running for 1540.261)
+2021-11-09 11:51:48.970  INFO 6920 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-09 11:53:07.357  INFO 6920 --- [http-nio-8084-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/Mp]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-09 11:53:07.358  INFO 6920 --- [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-09 11:53:07.361  INFO 6920 --- [http-nio-8084-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-11-09 11:53:14.980  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=1, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.982  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=2, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.983  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=3, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.983  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=4, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.983  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=5, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.983  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=6, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.983  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=7, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.983  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=8, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.983  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=9, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=10, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=11, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=12, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=13, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=14, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=15, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=16, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=17, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=18, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=19, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=20, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=21, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=22, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=23, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=24, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=25, nomProduit=nomProduit, quantite=20, typeProduit=typeProduit, fournisseurId=2]
+2021-11-09 11:53:14.985  INFO 6920 --- [http-nio-8084-exec-3] tn.esprit.spring.service.MpServiceImpl   : Mp +++ :Mp [id=26, nomProduit=nomProduit2, quantite=10, typeProduit=typeProduit2, fournisseurId=2]
+2021-11-09 11:53:34.778  INFO 6920 --- [RMI TCP Connection(31)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-11-09 11:53:35.157  INFO 6920 --- [RMI TCP Connection(31)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-09 11:53:35.159  INFO 6920 --- [RMI TCP Connection(31)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2021-11-09 11:53:35.163  INFO 6920 --- [RMI TCP Connection(31)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
